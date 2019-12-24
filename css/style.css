@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin-top: calc(40vh - 140px);
+    width: 100%;
+    text-align: center;
+}
+
+.logo {
+    max-width: 290px;
+    width: 100%;
+    margin: 10px 0;
+}
+
+p {
+    color: #424242;
+    margin: 0 0 10px;
+}
+
+.btn {
+    border-radius: 8px;
+    padding: 10px 15px;
+    align-items: center;
+    display: inline-flex;
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.btn.github{
+    background-color: #C4C4C4;
+}
+
+.btn.documentation{
+    background-color: #7CBF9B;
+}
+
+.btn img{
+    width: 36px;
+    height: 36px;
+}
+
+.btn span{
+    margin-left: 10px;
+}
+
+footer {
+    background-color: #CCEAD9;
+    color: #4D4D4D;
+    text-align: center;
+    width:100%;
+    position: fixed;
+    bottom: 0;
+    padding: 10px 0;
+}
